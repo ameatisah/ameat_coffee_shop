@@ -2,236 +2,84 @@
 <html>
     <head>
         <title>ameat coffee shop</title>
+        <meta charset="UTF-8">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            header{
-                width: 100%;
-            }
-               nav{
-                /* background-color: #f0ffff; */
-                padding: 20px;
-                justify-content: right;
-                display: flex;
-                gap: 30px;
-                margin-right: 60px;
-                /* width: 97%; */
-            }
-            nav a{
-                text-decoration: none;
-                color:#000000;
-                font-size: 30px;
-            }
-            a:hover{
-                color: #ff0000;
-            }
-            h1{
-                text-align: center;
-                font-size: 40px;
-                color: #421212;
-                text-shadow: #110101;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                
-            }
-            .container{
-                width: 100%;
-                display: flex;
-                background-image: url(images/IMG_1867.JPG);
-                color: #f0ffff;
-                /* height: 500px; */
-                /* margin: auto; */
-            }
-            .box{
-                padding: 70px;
-            font-size: 50px;
-            }
-            .box1 img{
-                width: 350px;
-                margin-right: 30px;
-                margin: 50px;
-                height: 400px;
-            }
-            .container1{
-                display: flex;
-                width: 100%;
-            }
-            .box2 img{
-                width: 500px;
-                margin-left: 30px;
-            }
-            .box3{
-                padding: 50px;
-                 font-size: 40px;
-            }
-            body{
-                background-color: #a9a9a9;
-            }
-            #about{
-                font-size: 40px;
-                text-align: center;
-                color: #421212;
-                background-color: #a9a9a9;
-                padding: 20px;
-                border: 2px solid black;
-            }
-            button{
-                padding: 20px;
-                background-color: #000000;
-                border: 2px solid #310606;
-                margin-left: 50px;
-                border-radius: 20px;
-            }
-            button:hover{
-                color: #310606;
-                background-color: #f0ffff;
-            }
-            .images{
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-                background-color: rgb(134, 216, 134);
-                height: 300px;
-                padding-top: 20px;
-                
-            
-            }
-            .ginger img{
-                width: 200px;
-                border: 2px solid #000000;
-                border-radius: 360px;
-            }
+         <link rel="stylesheet" href="style.css">
+         <link rel="shortcut icon" href="images/logo.JPG" type="image/x-icon">
 
-            .cinnamon img{
-                width: 200px;
-                border: 2px solid #000000;
-                border-radius: 360px;
-                
-            }
-            .blacktea img{
-                width: 200px;
-                border: 2px solid #000000;
-                border-radius: 360px;
-            
-            }
-            .garlic img{
-                width: 200px;
-                border: 2px solid #000000;
-                border-radius: 360px;
-            }
-            .greentea img{
-                width: 200px;
-                height: 200px;
-                border: 2px solid #000000;
-                border-radius: 360px;
-            }
-            .ginger p{
-                margin-left: 80px;
-            }
-            .cinnamon p{
-                margin-left: 80px;
-            }
-            .blacktea p{
-                margin-left: 80px;
-            }
-            .garlic p{
-                margin-left: 80px;
-            }
-            .greentea p{
-                margin-left: 80px;
-            }
-            a{
-            text-decoration: none;
-            color: #9ac2c2;
-            }
-            footer{
-                display: flex;
-                justify-content: space-between;
-                align-items: baseline;
-                gap: 40px;
-                color: #f0ffff;
-                background-color: #000000;
-                padding: 20px;
-                margin: 20px;
-            }
-            h4{
-                 text-align: left;
-                /* padding-right: 40rem; */
-                margin: 0;
-                line-height: 1.2rem;
-                color: #421212;
-                font-size: 25px;
-                /* margin-top: 0; */
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            }
-            header{
-                background-color: #f0ffff;
-                margin: 0;
-            }
-            .box p{
-                margin: auto;
-
-            }
-        </style>
     </head>
     <body>
-        <header>
-            <h4>AMEAT COFFEE</h4>
-            <nav>
-                <a href="#home">home</a>
-                <a href="#about">about</a>
-                <a href="menu.html">menu</a>
-                <a href="#contact">contact</a>
+        <header class="site-header">
+            <div class="header-logo">
+                 <img src="images/logo.JPG" alt="header-logo">
+            </div>
+            <a class="logo" href="#">Ameat coffee shop</a>
+            
+            <nav aria-label="main">
+                 <ul class="nav-list">
+                   <li><a href="#home">home</a></li>
+                   <li><a href="#about">about</a></li>
+                   <li><a href="menu.html">menu</a></li>
+                    <li><a href="#contact">contact</a></li>
+                 </ul>
             </nav>
         </header>
-        <h1>fresh coffee,fresh mood</h1>
-        <div class="container">
-            <div class="box">
+        <h1 class="main-headline">fresh coffee,fresh mood</h1>
+         <section class="one-one">
+            <div class="one-said">
+                 <div class="booxx">
                   <p>we serve freshly brewed coffee made with quality ingredients. whether you want to start your morning with a delicious cup of coffee or relax with friends, ameat is the perfect place for you</p>
+                </div>
+              <div class="coffee-cup">
+                <img src="images/IMG_normal.JPG" alt="coffee cup">
             </div>
-            <div class="box1">
-                <img src="images/IMG_1873.JPG" alt="coffee">
-            </div>
-        </div><br>
-        <button><a href="menu.html">menu</a></button><br><br>
-          <div class="images">
-            <div class="ginger">
+         </section><br><br>
+                    <a class="button" href="menu.html">menu</a><br><br><br>
+           <section>
+            <div class="images">
+            <div class="image">
                 <img src="images/IMG_1874.JPG" alt="ginger">
                 <p>Ginger</p>
             </div>
-            <div class="cinnamon">
+            <div class="image">
                 <img src="images/IMG_1877.JPG" alt="cinnamon">
                <p>Cinnamon</p>
             </div>
-            <div class="blacktea">
+            <div class="image">
                 <img src="images/IMG_1876.JPG" alt="black tea">
                 <p>Black Tea</p>
             </div>
-            <div class="garlic">
+            <div class="image">
                 <img src="images/IMG_1875.JPG" alt="garlic">
                 <p>Garlic</p>
             </div>
-            <div class="greentea">
-                <img src="images/IMG_1878.JPG" alt="green tea">
-                <p>Green Tea</p>
+            <div class="image">
+                <img src="images/image-one.JPG" alt="star anise">
+                <p>Star Anise</p>
+            </div>
+
             </div>
         </div>
-        <h2 id="about">About our coffee</h2>
-        <div class="container1">
-             <div class="box2">
-                <img src="images/IMG_1872.JPG" alt="coffee cup">
+        <h2 class="main-headline" id="about">About our coffee</h2>
+           </section>
+           <sections class="two-two">
+            <div class="two-said">
+             <div class="coffee_cup">
+                <img src="images/IMG_normal.JPG" alt="coffee cup">
              </div>
-             <div class="box3">
+             <div class="boox">
                  <p>At ameat coffee we serve fresh and delicious coffee made with ingredients. our goals is to give every costomer a relaxing place to enjoy great coffee, testy cakes, and delicious snacks.
                  </p>
              </div>
-        </div><br>
-        <footer>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>More</li>
-                <li>contact</li>
+        </div><br><br>
+           <footer class="footer-section">
+            <ul class="footer-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="menu.html">More</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="Email">
+            <div class="email">
                 <p>Email:ameatjesus@gmail.com</p>
             </div>
             <div class="phone">
@@ -241,6 +89,5 @@
                 <p>&copy;2026 AMEAT COFFEE.All Rihgt Reserved.</p>
             </div>
         </footer>
-
     </body>
 </html>

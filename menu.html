@@ -1,312 +1,87 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            .images{
-                width: 90%;
-                display: flex;
-                justify-content: space-between;
-                gap: 10px;
-
-            }
-            .doughnut{
-                border: 2px solid black;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .doughnut img{
-                width: 180px;
-            }
-            .doughnut p{
-                text-align: center;
-                background-color: rgb(134, 216, 134);
-                padding: 20px;
-                border-radius: 10px;
-            }
-            .meatpie{
-                border: 2px solid hsl(0, 0%, 0%);
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .meatpie img{
-                width: 180px;
-                height: 180px;
-                
-            }
-            .meatpie p{
-                text-align: center;
-                background-color: rgb(134, 216, 134);
-                padding: 20px;
-                border-radius: 10px;
-            }
-            .eggroll p{
-                text-align: center;
-                background-color: rgb(134, 216, 134);
-                padding: 20px;
-                border-radius: 10px;
-            }
-            .eggroll{
-                border: 2px solid black;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .eggroll img{
-                width: 180px;
-                height: 180px;
-            }
-            .muffins{
-                border: 2px solid black;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .muffins img{
-                width: 180px;
-                height: 180px;
-            }
-            .muffins p{
-                text-align: center;
-                background-color: rgb(134, 216, 134);
-                padding: 20px;
-                border-radius: 10px;
-            }
-            .puffpuff{
-                border: 2px solid black;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .puffpuff imG{
-                width: 180px;
-                height: 180px;
-            }
-            .puffpuff p{
-                text-align: center;
-                background-color: rgb(134, 216, 134);
-                padding: 20px;
-                border-radius: 10px;
-            }
-            .shawarma{
-                border: 2px solid hwb(0 0% 100%);
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .shawarma img{
-                width: 180px;
-                height: 180px;
-            }
-            .shawarma p{
-                text-align: center;
-                background-color: rgb(134, 216, 134);
-                padding: 20px;
-                border-radius: 10px;
-            }
-             header{
-                width: 100%;
-            }
-               nav{
-                background-color: #f0ffff;
-                padding: 20px;
-                justify-content: right;
-                display: flex;
-                gap: 30px;
-                margin-right: 60px;
-                width: 97%;
-            }
-            nav a{
-                text-decoration: none;
-                color:#000000;
-                font-size: 30px;
-            }
-            a:hover{
-                color: #ff0000;
-            }
-            body{
-                background-color: #a9a9a9;
-            }
-             h1{
-                text-align: center;
-                font-size: 40px;
-                color: #421212;
-                text-shadow: #110101;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;                
-            }
-            .tea{
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-                gap: 10px;
-            }
-            .blackcoffee{
-                border: 2px solid hsl(0, 0%, 0%);
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .blackcoffee img{
-                width: 200px;
-                height: 200px;
-
-            }
-            .blackcoffee p{
-                background-color: rgb(134, 216, 134);
-                padding: 20px;
-                text-align: center;
-                border-radius: 10px;
-            }
-            .blacktea{
-                border: 2px solid #110101;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .blacktea img{
-                width: 200px;
-                height: 200px;
-            }
-            .blacktea p{
-                background-color: rgb(134, 216, 134);
-                padding: 20px;
-                text-align: center;
-                border-radius: 10px;
-            }
-            .masalatea{
-                border: 2px solid #110101;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .masalatea img{
-                width: 200px;
-                height: 200px;
-            }
-            .masalatea p{
-                background-color: rgb(134, 216, 134);
-                text-align: center;
-                padding: 20px;
-                border-radius: 10px;
-            }
-            .greentea{
-                border: 2px solid #110101;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .greentea img{
-                width: 200px;
-                height: 200px;
-            }
-            .greentea p{
-                text-align: center;
-                background-color: rgb(134, 216, 134);
-                padding: 20px;
-                border-radius: 10px;
-            }
-            .hotchoco{
-                border: 2px solid #110101;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            .hotchoco img{
-                width: 200px;
-                height: 200px;
-            }
-            .hotchoco p{
-                background-color: rgb(134, 216, 134);
-                border-radius: 10px;
-                text-align: center;
-                padding: 20px;
-
-            }
-             span{
-                background-color: rgb(134, 216, 134);
-                padding: 30px;
-                justify-content: space-between;
-                gap: 200px;
-                margin: 10px;
-
-             }
-             footer{
-                width: 96%;
-                display: flex;
-                justify-content: space-between;
-                align-items: baseline;
-                gap: 40px;
-                color: #f0ffff;
-                background-color: #000000;
-                padding: 20px;
-                margin: 20px;
-                margin-left: 10px;
-            }
-
-
-        </style>
-            
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/logo.JPG" type="image/x-icon">
     </head>
     <body>
-        <header>
-            <nav>
-
-                <a href="index.html">home</a>
-                <a href="#about">about</a>
-                <a href="menu.html">menu</a>
-                <a href="#contact">contact</a>
+         <header class="site-header">
+             <div class="header-logo">
+                <img src="images/logo.JPG" alt=" header-logo">
+             </div>
+            <a class="logo" href="#">Ameat coffee shop</a>
+            
+            <nav aria-label="main">
+                 <ul class="nav-list">
+                   <li><a href="index.html">home</a></li>
+                   <li><a href="#about">about</a></li>
+                   <li><a href="menu.html">menu</a></li>
+                    <li><a href="#contact">contact</a></li>
+                 </ul>
             </nav>
-        </header><br>
+        </header>
           <marquee class="menu" behavior="scroll" direction="left"><span>All</span> <span>black tea</span> <span>masala tea</span> <span>black coffee</span> <span>hot choco</span> <span>green tea</span></marquee>
-          <h1>cheeps and snacks</h1>
-         <div class="images">
-           <div class="doughnut">
+          <h1 class="main-headline">cheeps and snacks</h1>
+         <div class="snacks">
+           <div class="snack">
             <img src="images/doughnut.JPG" alt="doughnut"><br>
             <p>Doughnut</p>
           </div>
-          <div class="meatpie">
+          <div class="snack">
             <img src="images/meat pie.JPG" alt="meatpie"><br>
             <p>Meat Pie</p>
           </div>
-          <div class="eggroll">
+          <div class="snack">
             <img src="images/egg roll.JPG" alt="eggroll"><br>
             <p>egg roll</p>
           </div>
-          <div class="muffins">
+          <div class="snack">
             <img src="images/muffins.JPG" alt="muffins"><br>
             <p>Muffins</p>
           </div>
-          <div class="puffpuff">
+          <div class="snack">
             <img src="images/puff puff.JPG" alt="puffpuff"><br>
             <p>puff puff</p>
           </div>
-          <div class="shawarma">
+          <div class="snack">
             <img src="images/shawarma.JPG" alt="shawarma"><br>
             <p>shawarma</p>
           </div>
 
          </div>
-                  <h1>Hot Tea and more</h1>
-                <div class="tea">
-                    <div class="blackcoffee">
+                  <h1 class="main-headline">Hot Tea and more</h1>
+                <div class="teas">
+                    <div class="tea">
                         <img src="images/black coffee.JPG" alt="blackcoffee">
-                        <p>black coffee</p>
+                        <!-- <p>black coffee</p> -->
                     </div>
-                    <div class="blacktea">
+                    <div class="tea">
                         <img src="images/black tea.JPG" alt="blacktea">
-                        <p>black tea</p>
+                        <!-- <p>black tea</p> -->
                     </div>
-                    <div class="masalatea">
+                    <div class="tea">
                         <img src="images/masala tea.JPG" alt="masalatea">
-                        <p> masala tea</p>
+                        <!-- <p> masala tea</p> -->
                     </div>
-                    <div class="greentea">
+                    <div class="tea">
                         <img src="images/greenea&lemon.JPG" alt="greentea">
-                        <p>greentea&lemon</p>
+                        <!-- <p>greentea&lemon</p> -->
                     </div>
-                    <div class="hotchoco">
+                    <div class="tea">
                         <img src="images/hot chocolate.JPG" alt="hotchoco">
-                        <p>hot chocolate</p>
+                        <!-- <p>hot chocolate</p> -->
                     </div>
-                </div>
-                <footer>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>More</li>
-                <li>contact</li>
+                </div><br>
+                <footer class="footer-section">
+            <ul class="footer-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#more">More</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="Email">
+            <div class="email">
                 <p>Email:ameatjesus@gmail.com</p>
             </div>
             <div class="phone">

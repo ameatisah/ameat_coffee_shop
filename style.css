@@ -1,0 +1,356 @@
+*,
+*::before
+*::after{box-sizing: border-box;}
+
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #a9a9a9;
+}
+
+
+img{max-width: 100%; height: auto; display: block;}
+
+/*  side-header----------------------------------------------------------------- */
+
+
+.site-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: #f0ffff;
+    border-bottom: 1px solid #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+a:hover{color: #421212; text-decoration: underline;}
+
+
+.header-logo img{
+    width: 80px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* --section-one------------------------------------------------------------------- */
+
+
+.main-headline{
+    text-align: center;
+    margin:0 1.5 0 0;
+    padding: 0;
+    font-size: 50px;
+    color: #421212;
+}
+
+.one-one{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 250px;
+    padding: auto;
+    align-items: center;
+    min-height: 600px;
+    background-image: url(images/background.JPG);
+}
+
+.one-said{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 10px auto;
+    
+}
+
+
+.booxx{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    margin: 30px;
+    padding: 1rem;
+    flex: 1;
+    border-left:3px solid #421212;
+    color: #f0ffff;
+}
+
+
+.coffee-cup img{
+    width: 400px;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    flex: 1;
+    /* padding: ; */
+    margin-bottom: 0;
+}
+
+
+
+/* ---button------------------------------------------------------------------------------------- */
+
+
+.button{
+    padding: 20px;
+    margin: 1.5rem 1.5rem;
+    background-color: #421212;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f0ffff;
+}
+
+
+.button a:hover{color: #a9a9a9;}
+
+
+/* section-images------------------------------------------------------------------------------ */
+
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    /* flex: 1 1 200px; */
+}
+
+
+.image{
+    /* flex: 1 1 200px; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(134, 126, 134);
+    border: 1px solid black;
+    box-shadow: 0.02rem 0.1rem 0.1rem;
+    flex: 1 1 100px;
+}
+
+.images img{border-radius: 360px;}
+
+
+.images p{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(134, 216, 134);
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+
+/* --seaction-two------------------------------------------------------------------------------------- */
+
+.two-two{
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 250px;
+    /* border: solid black; */
+    /* padding: 30px; */
+    align-items: center;
+    min-height: 500px;
+}
+
+
+.two-said{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 10px auto;
+    
+}
+
+
+.boox{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    font-size: 40px;
+    margin: auto;
+    padding: 10.5px;
+    flex: 5rem;
+    border-left:3px solid #421212;
+    background-color: rgba(134, 126, 134, 0.432);
+    color: #f0ffff;
+}
+
+
+.coffee_cup img{
+    width: 400px;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    flex: 1;
+    margin-bottom: 0;
+}
+
+
+
+
+/* ----said-footer------------------------------------------------------------------------ */
+
+
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f0ffff;
+    /* padding: 1.5rem 1rem; */
+    border-top: 1px solid #000000;
+}
+
+.footer-list{
+    display: flex;
+    list-style: none;
+    /* gap: 0.5; */
+    /* padding: 10px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-list a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #000000;
+}
+
+
+.email{font-size: 20px; padding: 9px;}
+.phone{font-size: 20px; padding: 9px;}
+.footer-section p{margin: 0;}
+
+.right{padding: 9px;}
+
+
+
+
+/*    ------menu-----section-------------------------------- */
+
+
+
+/*    ------menu-----section--------------------------------- */
+
+
+.snacks{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* flex: 1 1 100px; */
+
+}
+
+.snack{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #000000;
+    padding: 0;
+    margin: 0.5rem;
+    flex: 1 1 100px;
+    background-color: rgb(134, 126, 134);
+    flex-direction: column;
+}
+
+
+.snack img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.snack p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.boy{padding: 20px;}
+
+
+/* ---section--- teas----------------------------------- */
+
+
+.teas{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.tea{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 200px;
+    padding: 0;
+    margin: 0;
+    flex-direction: column-reverse;
+}
+
+
+.tea img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    /* object-fit: cover; */
+}
+
+/* ----marquee-side-------------------------------------------- */
+
+
+  span{
+                background-color: rgb(134, 216, 134);
+                padding: 30px;
+                justify-content: space-between;
+                gap: 200px;
+                margin: 10px;
+}
