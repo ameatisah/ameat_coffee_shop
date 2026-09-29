@@ -157,7 +157,7 @@ a:hover{color: #421212; text-decoration: underline;}
     background-color: rgb(134, 126, 134);
     border: 1px solid black;
     box-shadow: 0.02rem 0.1rem 0.1rem;
-    flex: 1 1 100px;
+    flex: 1 1 220px;
 }
 
 .images img{border-radius: 360px;}
@@ -278,7 +278,7 @@ a:hover{color: #421212; text-decoration: underline;}
     border: 2px solid #000000;
     padding: 0;
     margin: 0.5rem;
-    flex: 1 1 100px;
+    flex: 1 1 150px;
     background-color: rgb(134, 126, 134);
     flex-direction: column;
 }
@@ -316,7 +316,7 @@ a:hover{color: #421212; text-decoration: underline;}
     flex-wrap: wrap-reverse;
     justify-content: space-between;
     align-items: center;
-    flex: 1 1 200px;
+    flex: 1 1 250px;
     padding: 0;
     margin: 0;
     flex-direction: column-reverse;
